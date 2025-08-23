@@ -17,9 +17,9 @@ const Testimonial = () => {
             key={testimonial.id} 
             className="group relative rounded-xl transition-all duration-500 hover:scale-105 hover:-translate-y-2"
           >
-            {/* Card with glowing border only on hover */}
+            {/* Card with glowing dark-blue shadow */}
             <div className="p-[2px] rounded-xl">
-              <div className="bg-white p-6 rounded-xl shadow-md transition-all duration-500 group-hover:glowing-border">
+              <div className="bg-white p-6 rounded-xl shadow-md shadow-blue-900/30 group-hover:shadow-2xl group-hover:shadow-blue-900/60 transition-all duration-500">
                 
                 {/* User Info */}
                 <div className="flex items-center gap-3">
